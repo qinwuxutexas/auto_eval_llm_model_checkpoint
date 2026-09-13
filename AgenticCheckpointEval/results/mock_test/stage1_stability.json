@@ -1,0 +1,10 @@
+{
+  "reference_top1": "ckpt_12000",
+  "top1_consistency": 0.746,
+  "flip_rate": 0.254,
+  "winner_frequency": {
+    "ckpt_12000": 0.746,
+    "ckpt_2000": 0.254
+  },
+  "rounds": 1000
+}

@@ -1,0 +1,26 @@
+{
+  "ckpt_12000": {
+    "anonymous_id": "ckpt_D",
+    "iteration": 12000
+  },
+  "ckpt_16000": {
+    "anonymous_id": "ckpt_B",
+    "iteration": 16000
+  },
+  "ckpt_2000": {
+    "anonymous_id": "ckpt_C",
+    "iteration": 2000
+  },
+  "ckpt_20000": {
+    "anonymous_id": "ckpt_E",
+    "iteration": 20000
+  },
+  "ckpt_4000": {
+    "anonymous_id": "ckpt_A",
+    "iteration": 4000
+  },
+  "ckpt_8000": {
+    "anonymous_id": "ckpt_F",
+    "iteration": 8000
+  }
+}

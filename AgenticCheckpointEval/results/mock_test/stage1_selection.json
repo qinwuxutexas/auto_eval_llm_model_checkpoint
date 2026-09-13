@@ -1,0 +1,8 @@
+{
+  "kept_checkpoints": [
+    "ckpt_12000",
+    "ckpt_2000",
+    "ckpt_8000",
+    "ckpt_16000"
+  ]
+}
