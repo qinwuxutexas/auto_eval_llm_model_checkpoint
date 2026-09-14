@@ -1,0 +1,3 @@
+sample_id,label_to_checkpoint,ranking_labels,rationale
+sample_0001,"{""C1"": ""ckpt_20000"", ""C2"": ""ckpt_8000"", ""C3"": ""ckpt_4000"", ""C4"": ""ckpt_16000""}","[""C3"", ""C4"", ""C1"", ""C2""]","{""C3"": ""MOCK"", ""C4"": ""MOCK"", ""C1"": ""MOCK"", ""C2"": ""MOCK""}"
+sample_0002,"{""C1"": ""ckpt_16000"", ""C2"": ""ckpt_4000"", ""C3"": ""ckpt_20000"", ""C4"": ""ckpt_8000""}","[""C2"", ""C4"", ""C1"", ""C3""]","{""C2"": ""MOCK"", ""C4"": ""MOCK"", ""C1"": ""MOCK"", ""C3"": ""MOCK""}"

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-checkpoint-eval"
+version = "0.1.0"
+description = "Agentic multimodal LLM checkpoint selection (pointwise / listwise / pairwise)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "vlmgrounding / qinwuxutexas" }]
+dependencies = [
+  "numpy",
+  "pandas",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+openai = ["openai"]
+pdf = ["pymupdf"]
+all = ["openai", "pymupdf", "pillow"]
+
+[project.scripts]
+agentic-eval = "agentic_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agentic_eval = ["py.typed"]

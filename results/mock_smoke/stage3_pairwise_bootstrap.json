@@ -1,0 +1,7 @@
+{
+  "mean_preference_A": 1.0,
+  "P_A_gt_B": 1.0,
+  "ci_low": 1.0,
+  "ci_high": 1.0,
+  "rounds": 200
+}

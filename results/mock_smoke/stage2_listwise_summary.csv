@@ -1,0 +1,5 @@
+checkpoint,mean_borda,mean_rank,top1_rate,count
+ckpt_4000,3.0,1.0,1.0,2
+ckpt_16000,1.5,2.5,0.0,2
+ckpt_8000,1.0,3.0,0.0,2
+ckpt_20000,0.5,3.5,0.0,2

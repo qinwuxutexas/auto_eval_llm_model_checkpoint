@@ -1,0 +1,8 @@
+seed: 42
+bootstrap_rounds: 200
+pointwise_keep_margin: 0.10
+pointwise_min_candidates: 4
+pointwise_max_candidates: 6
+listwise_finalists: 2
+beta: 0.50
+gamma: 0.25

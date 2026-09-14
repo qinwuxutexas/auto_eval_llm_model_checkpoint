@@ -1,0 +1,34 @@
+{
+  "n_samples": 2,
+  "n_initial_checkpoints": 6,
+  "pointwise_top1": "ckpt_16000",
+  "pointwise_top1_consistency": 1.0,
+  "pointwise_flip_rate": 0.0,
+  "kept_after_pointwise": [
+    "ckpt_16000",
+    "ckpt_20000",
+    "ckpt_8000",
+    "ckpt_4000"
+  ],
+  "listwise_top1": "ckpt_4000",
+  "listwise_top1_consistency": 1.0,
+  "listwise_flip_rate": 0.0,
+  "finalists": [
+    "ckpt_4000",
+    "ckpt_16000"
+  ],
+  "pairwise_summary": {
+    "n": 2,
+    "a_win_rate": 1.0,
+    "b_win_rate": 0.0,
+    "tie_rate": 0.0
+  },
+  "pairwise_bootstrap": {
+    "mean_preference_A": 1.0,
+    "P_A_gt_B": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "rounds": 200
+  },
+  "loss_baseline": {}
+}

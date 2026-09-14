@@ -1,0 +1,16 @@
+seed: 42
+bootstrap_rounds: 1000
+pointwise_keep_margin: 0.10
+pointwise_min_candidates: 4
+pointwise_max_candidates: 6
+listwise_finalists: 2
+beta: 0.50
+gamma: 0.25
+beta_grid: [0.0, 0.25, 0.50, 0.75, 1.0]
+gamma_grid: [0.0, 0.10, 0.25, 0.50]
+pointwise_judge_label: "Gemini 3 Flash"
+listwise_judge_label: "Claude Sonnet 4.1"
+pairwise_judge_label: "GPT-4o reasoning"
+pointwise_judge_temperature: 0.0
+listwise_judge_temperature: 0.0
+pairwise_judge_temperature: 0.0
